@@ -2,9 +2,8 @@
 using namespace std;
 
 int main(){
-    int x,y,i;
-        cout << "Enter an integer: ";
-        cin>>x;
+    int x=1,y=0,i=0;
+        
          while(x!=0){
              cout << "Enter an integer: ";
              cin>>x;
@@ -16,9 +15,10 @@ int main(){
     else{
        i++;
         
-        }
+        }}
 
     cout << "#Even numbers = "<<y<<"\n";
     cout << "#Odd numbers = "<<i;
     return 0;
+
 }
